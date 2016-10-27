@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyWearApp</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="default_max_temp">25°</string>
+    <string name="default_min_temp">20°</string>
+</resources>

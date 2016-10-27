@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="digital_text_size">40dp</dimen>
+    <dimen name="digital_text_size_round">45dp</dimen>
+    <dimen name="digital_x_offset">15dp</dimen>
+    <dimen name="digital_x_offset_round">25dp</dimen>
+    <dimen name="digital_y_offset">120dp</dimen>
+    <dimen name="temperature_y_offset">160dp</dimen>
+    <dimen name="temperature_high_x_offset">40dp</dimen>
+    <dimen name="temperature_low_x_offset">95dp</dimen>
+    <dimen name="temp_high_textsize">35dp</dimen>
+    <dimen name="temp_low_textsize">30dp</dimen>
+    <dimen name="img_y_offset">40dp</dimen>
+</resources>

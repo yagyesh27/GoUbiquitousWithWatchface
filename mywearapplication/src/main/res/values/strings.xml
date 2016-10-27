@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyWearApplication</string>
+    <string name="my_digital_name">My Digital</string>
+    <string name="default_max_temp">25°</string>
+    <string name="default_min_temp">20°</string>
+</resources>

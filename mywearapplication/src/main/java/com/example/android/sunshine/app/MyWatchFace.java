@@ -259,7 +259,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
             canvas.drawText(lowTemp, resources.getDimension(R.dimen.temperature_low_x_offset), tempYOffset, textLowTemp);
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(),getIconResourceForWeatherCondition(weatherId) );
             //Bitmap.createScaledBitmap()
-            canvas.drawBitmap(bitmap, 60, 3, null);
+            canvas.drawBitmap(bitmap, bitmap.getWidth()/2, 10, null);
         }
 
         /**
@@ -297,6 +297,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onConnected(Bundle bundle) {
 
+            Wearable.DataApi.addListener(mGoogleApiClient,this);
             if (Log.isLoggable(TAG, Log.DEBUG)) {
             Log.d(TAG, "onConnected: " + bundle);
         }
